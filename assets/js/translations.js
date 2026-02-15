@@ -15,10 +15,10 @@ const translations = {
     // Hero Section
     hero: {
       title: "Der Paul-O-Mat – weil nur Loser Excel nutzen.",
-      subtitle: "Ich bin Paul – Coach für ambitionierte Bodybuilder – und ich finde Excel ätzend. Jeder Check-In mit meinen Athleten ist ein organisatorisches Chaos und sind wir mal ehrlich – das sieht doch scheiße aus. Deshalb habe ich mit meinem Kumpel Emre den Paul-O-Maten gebastelt. Einfach, weil wir es können. Coaching in sexy quasi, und das Ganze ohne riesen Kostenberge. Und um meinem übergroßen Ego noch einen Gefallen zu tun, haben wir die Plattform nach mir benannt. Und auch noch meine Fresse als Logo genommen. Ich lebe den Traum. Sorry Emre, aber Emre-O-Mat klingt einfach Banane.",
+      subtitle: "Ich bin Paul – Coach für ambitionierte Bodybuilder – und ich finde Excel ätzend. Jeder Check-In mit meinen Athleten ist ein organisatorisches Chaos und sind wir mal ehrlich – das sieht doch scheiße aus. Deshalb habe ich mit meinem Kumpel Emre den Paul-O-Maten gebastelt. Einfach, weil wir es können. Coaching in jazzy quasi, und das Ganze ohne riesen Kostenberge. Und um meinem übergroßen Ego noch einen Gefallen zu tun, haben wir die Plattform nach mir benannt. Und auch noch meine Fresse als Logo genommen. Ich lebe den Traum. Sorry Emre, aber Emre-O-Mat klingt einfach Banane.",
       ctaPrimary: "Kostenlos starten",
       ctaSecondary: "Mehr erfahren",
-      tagline: "Coaching in sexy – ohne Excel-Chaos"
+      tagline: "Coaching in jazzy – ohne Excel-Chaos"
     },
 
     // Features Section
@@ -46,18 +46,24 @@ const translations = {
       title: "Wer sind wir eigentlich?",
       subtitle: "Die Story hinter dem Paul-O-Mat",
       description: "Emre und Ich, Paul, kennen uns schon unglaublich lange. Zunächst war Emre im Lifestyle-Coaching bei mir, was kläglich gescheitert ist (er war schuld). Trotzdem konnte er so Einblick gewinnen, wie der Prozess des Coachings abläuft. Da er etwas Programmier-Affin ist (ich weiß bis heute nicht so richtig, was er eigentlich beruflich macht – irgendwas mit Computern) und ich maximal opportunistisch, hatten wir beide eine brillante Idee: Wir müssen den Prozess des Coachings, wie ihn jeder selbsternannte Fitness-Coach auf Social Media betreibt, doch irgendwie in das 21. Jahrhundert holen. Excel ist einfach nicht mehr State-of-the-Art. Die ganze Organisation um das Coaching herum lenkt uns von dem ab, was eigentlich wichtig ist: das Coaching. Der Paul-O-Mat war geboren. Wir beide haben uns also auf die Mission gemacht, die geilste Check-In-Plattform für Coaches auf dem Markt zu kreieren, die man sich leisten kann und will. Die Zusammenarbeit lief blendend. Ich sag was ich will, Emre setzt um. Aus um meiner Sicht die perfekte Aufgabenverteilung, oder Emre? Der Paul-O-Mat ist nicht perfekt – wissen wir. Aber er ist auf dem Weg dahin. Dafür brauchen wir aber Kohle, Coaches mit vielen Ideen und Kohle. Und genau deshalb bist du hier. Du wirst Teil der Entwicklung. Einmal mit deiner monatlichen Finanzspritze, und zum anderen mit deinen Verbesserungsvorschlägen, die entweder im Papierkorb, oder in der fertigen Plattform landen werden.",
-      cta: "Mehr erfahren"
+      cta: "Mehr erfahren",
+      stat: {
+        years: "01",
+        wehave: "Wir haben",
+        experience: "Jahr Erfahrung"
+      }
     },
 
     // CTA Section
     cta: {
-      title: "Bereit für sexy Coaching?",
+      title: "Bereit für jazzy Coaching?",
       description: "Starte heute und verabschiede dich von Excel-Chaos.",
       button: "Jetzt starten"
     },
 
     // Pricing Section
     pricing: {
+      badge: "Preise",
       title: "Ein Preis. Das volle Produkt.",
       subtitle: "Der Paul-O-Mat kostet dich mit allen Features und direktem Kontakt mit Emre oder mir gerade einmal 20€ im Monat.",
       monthly: "Monat",
@@ -160,6 +166,7 @@ const translations = {
 
     // Team Section
     team: {
+      badge: "Unser Team",
       title: "Unser Team",
       subtitle: "Die Menschen hinter dem Paul-O-Mat",
       members: [
@@ -187,14 +194,14 @@ const translations = {
 
     // Footer
     footer: {
-      description: "Der Paul-O-Mat – Coaching in sexy, ohne Excel-Chaos.",
+      description: "Der Paul-O-Mat – Coaching in jazzy, ohne Excel-Chaos.",
       quickLinks: "Quick Links",
       legal: "Legal",
       privacy: "Datenschutz",
       terms: "AGB",
       imprint: "Impressum",
       followUs: "Folge uns",
-      copyright: "© 2025 Paul-O-Mat. Alle Rechte vorbehalten."
+      copyright: "© 2026 Paul-O-Mat. Alle Rechte vorbehalten."
     },
 
     // Promise Section
@@ -206,7 +213,7 @@ const translations = {
           description: "Weil nur Loser Excel nutzen"
         },
         {
-          title: "Sexy Coaching",
+          title: "Jazzy Coaching",
           description: "Endlich sieht dein Coaching-Setup nicht mehr scheiße aus"
         },
         {
@@ -244,10 +251,10 @@ const translations = {
     // Hero Section
     hero: {
       title: "The Paul-O-Mat – because only losers use Excel.",
-      subtitle: "I'm Paul – coach for ambitious bodybuilders – and I find Excel terrible. Every check-in with my athletes is an organizational chaos and let's be honest – it looks like crap. That's why I built the Paul-O-Mat with my buddy Emre. Simply because we can. Coaching in sexy, basically, and all without massive costs. And to do my oversized ego another favor, we named the platform after me. And even used my face as the logo. I'm living the dream. Sorry Emre, but Emre-O-Mat just sounds dumb.",
+      subtitle: "I'm Paul – coach for ambitious bodybuilders – and I find Excel terrible. Every check-in with my athletes is an organizational chaos and let's be honest – it looks like crap. That's why I built the Paul-O-Mat with my buddy Emre. Simply because we can. Coaching in jazzy, basically, and all without massive costs. And to do my oversized ego another favor, we named the platform after me. And even used my face as the logo. I'm living the dream. Sorry Emre, but Emre-O-Mat just sounds dumb.",
       ctaPrimary: "Get Started Free",
       ctaSecondary: "Learn More",
-      tagline: "Sexy coaching – without Excel chaos"
+      tagline: "Jazzy coaching – without Excel chaos"
     },
 
     // Features Section
@@ -275,18 +282,24 @@ const translations = {
       title: "Who are we anyway?",
       subtitle: "The story behind Paul-O-Mat",
       description: "Emre and I, Paul, have known each other for an incredibly long time. Initially, Emre was in lifestyle coaching with me, which failed miserably (it was his fault). Nevertheless, he was able to gain insight into how the coaching process works. Since he's somewhat programming-savvy (to this day, I don't really know what he does professionally – something with computers) and I'm extremely opportunistic, we both had a brilliant idea: We need to somehow bring the coaching process, as practiced by every self-proclaimed fitness coach on social media, into the 21st century. Excel is simply no longer state-of-the-art. All the organization around coaching distracts us from what's actually important: the coaching. The Paul-O-Mat was born. So we both set out on a mission to create the coolest check-in platform for coaches on the market that you can afford and want. The collaboration went brilliantly. I say what I want, Emre implements it. From my perspective, the perfect division of tasks, right Emre? The Paul-O-Mat isn't perfect – we know that. But it's on the way there. For that, we need money, coaches with lots of ideas, and money. And that's exactly why you're here. You'll be part of the development. Once with your monthly financial injection, and secondly with your improvement suggestions, which will either end up in the trash or in the finished platform.",
-      cta: "Learn More"
+      cta: "Learn More",
+      stat: {
+        years: "01",
+        wehave: "We have",
+        experience: "Year of experience"
+      }
     },
 
     // CTA Section
     cta: {
-      title: "Ready for sexy coaching?",
+      title: "Ready for jazzy coaching?",
       description: "Start today and say goodbye to Excel chaos.",
       button: "Get Started Now"
     },
 
     // Pricing Section
     pricing: {
+      badge: "Pricing",
       title: "One price. The full product.",
       subtitle: "The Paul-O-Mat costs you just €20 per month with all features and direct contact with Emre or me.",
       monthly: "month",
@@ -389,6 +402,7 @@ const translations = {
 
     // Team Section
     team: {
+      badge: "Our Team",
       title: "Our Team",
       subtitle: "The people behind Paul-O-Mat",
       members: [
@@ -416,14 +430,14 @@ const translations = {
 
     // Footer
     footer: {
-      description: "Paul-O-Mat – Sexy coaching without Excel chaos.",
+      description: "Paul-O-Mat – Jazzy coaching without Excel chaos.",
       quickLinks: "Quick Links",
       legal: "Legal",
       privacy: "Privacy",
       terms: "Terms",
       imprint: "Imprint",
       followUs: "Follow Us",
-      copyright: "© 2025 Paul-O-Mat. All rights reserved."
+      copyright: "© 2026 Paul-O-Mat. All rights reserved."
     },
 
     // Promise Section
@@ -435,7 +449,7 @@ const translations = {
           description: "Because only losers use Excel"
         },
         {
-          title: "Sexy Coaching",
+          title: "Jazzy Coaching",
           description: "Finally your coaching setup doesn't look like crap anymore"
         },
         {
