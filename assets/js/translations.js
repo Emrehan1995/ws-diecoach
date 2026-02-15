@@ -1,4 +1,4 @@
-// Die Coach - Bilingual Translations (DE/EN)
+// Paul-O-Mat - Bilingual Translations (DE/EN)
 const translations = {
   de: {
     // Navbar
@@ -14,144 +14,127 @@ const translations = {
 
     // Hero Section
     hero: {
-      title: "Hochleistungs-Coaching, persönlich geliefert",
-      subtitle: "Die Coach ist eine Premium-Coaching-App, entwickelt für die 1:1-Beziehung zwischen Coach und Athlet. Keine Massenprodukte, keine Standardlösungen – nur individuelles, kompromissloses Coaching.",
+      title: "Der Paul-O-Mat – weil nur Loser Excel nutzen.",
+      subtitle: "Ich bin Paul – Coach für ambitionierte Bodybuilder – und ich finde Excel ätzend. Jeder Check-In mit meinen Athleten ist ein organisatorisches Chaos und sind wir mal ehrlich – das sieht doch scheiße aus. Deshalb habe ich mit meinem Kumpel Emre den Paul-O-Maten gebastelt. Einfach, weil wir es können. Coaching in sexy quasi, und das Ganze ohne riesen Kostenberge. Und um meinem übergroßen Ego noch einen Gefallen zu tun, haben wir die Plattform nach mir benannt. Und auch noch meine Fresse als Logo genommen. Ich lebe den Traum. Sorry Emre, aber Emre-O-Mat klingt einfach Banane.",
       ctaPrimary: "Kostenlos starten",
       ctaSecondary: "Mehr erfahren",
-      tagline: "Für die 1:1-Beziehung gebaut, nicht für die Masse"
+      tagline: "Coaching in sexy – ohne Excel-Chaos"
     },
 
     // Features Section
     features: {
-      title: "Kernfunktionen",
-      subtitle: "Alles, was du für exzellentes 1:1-Coaching brauchst",
+      title: "Wir können alles, was dein bisheriges System auch kann. Nur besser, schneller, schöner und mit mehr Charme.",
+      subtitle: "Alles für professionelles Coaching",
       list: [
         {
           title: "Echtes 1:1 Athletenmanagement",
-          description: "Jeder Athlet bekommt deine ungeteilte digitale Aufmerksamkeit. Individuelle Profile, personalisierte Gewohnheiten, maßgeschneiderte Ziele – keine Standardlösungen."
+          description: "Wir Coaches haben alle das gleiche Problem. Morgens aufgestanden, WhatsApp geöffnet und gleich die Frage „Coach was muss ich heute machen?". Nerv nicht, oida. Der Paul-O-Mat gibt dir die Möglichkeit, soziale Interaktionen auf ein absolutes Minimum zu beschränken, damit du deinen introvertierten Traum in deiner 20 Quadratmeter Bude weiter ausleben kannst. Jeder Athlet hat ein individuelles Profil mit personalisierten Tracking-Parametern sowie maßgeschneiderten Zielen."
         },
         {
-          title: "Intelligentes Gewohnheits-Tracking",
-          description: "Drei Gewohnheitstypen: Checkbox, numerisches Tracking und Bewertungen. Flexible Frequenzziele mit optionalen Nachweisen und Notizen für volle Verantwortlichkeit."
+          title: "Intelligentes Gewohnheitstracking",
+          description: "Egal ob Checkbox, numerisches Tracking oder Bewertungen. Du kannst sogar deinen Athleten dazu zwingen, dir Nachweise und Notizen zu liefern – wie geil ist das denn?"
         },
         {
           title: "Automatisches Streak-Tracking",
-          description: "Visuelles Streak-Tracking, das motiviert ohne Spielerei. Aktuelle und Allzeit-Rekorde auf einen Blick mit datenbasierten Einblicken in Konsistenzmuster."
-        },
-        {
-          title: "Präzise Zielsetzung",
-          description: "Tägliche Kalorien- und Makroziele mit intelligenter Validierung. Zeitgebundene Ziele mit klaren Meilensteinen, die wirklich zum großen Ganzen des Athleten passen."
-        },
-        {
-          title: "Funktioniert mit deinem Setup",
-          description: "Füge Hard-Links zu externen Ressourcen direkt in der App hinzu. Die Coach integriert sich in dein System, nicht umgekehrt. Dein Workflow, deine Regeln."
-        },
-        {
-          title: "KI-gestützte Einblicke",
-          description: "Tiefe KI-Integration für Coach- und Athleten-Seite. Intelligente Mustererkennung über Gewohnheitsdaten mit proaktiven Alerts und Empfehlungen. (Coming Soon)"
+          description: "Ohne Streaks geht doch heute fast nichts. Anstatt wie die ganzen Low-Performer Flammen auf Snapchat zu sammeln widmen wir uns Streak-Zielen im Paul-O-Mat. Je mehr dein Athlet zurückmeldet, desto höher der Streak. Wir reiten die Dopamin-Welle und machen den Athleten süchtig. Eigentlich genial. Vergisst er mal einen Check-In, verliert er den Streak."
         }
       ]
     },
 
     // About Section
     about: {
-      title: "Was ist Die Coach?",
-      subtitle: "Unsere Philosophie",
-      description: "Hochleistungs-Coaching bedeutet nicht Templates und Automatisierung – es geht um tiefe, persönliche Verbindung. Jeder Athlet ist anders. Jedes Ziel ist einzigartig. Die Coach gibt dir die Werkzeuge, diesen individuellen Fokus zu bewahren, auch wenn dein Kader wächst.",
+      title: "Wer sind wir eigentlich?",
+      subtitle: "Die Story hinter dem Paul-O-Mat",
+      description: "Emre und Ich, Paul, kennen uns schon unglaublich lange. Zunächst war Emre im Lifestyle-Coaching bei mir, was kläglich gescheitert ist (er war schuld). Trotzdem konnte er so Einblick gewinnen, wie der Prozess des Coachings abläuft. Da er etwas Programmier-Affin ist (ich weiß bis heute nicht so richtig, was er eigentlich beruflich macht – irgendwas mit Computern) und ich maximal opportunistisch, hatten wir beide eine brillante Idee: Wir müssen den Prozess des Coachings, wie ihn jeder selbsternannte Fitness-Coach auf Social Media betreibt, doch irgendwie in das 21. Jahrhundert holen. Excel ist einfach nicht mehr State-of-the-Art. Die ganze Organisation um das Coaching herum lenkt uns von dem ab, was eigentlich wichtig ist: das Coaching. Der Paul-O-Mat war geboren. Wir beide haben uns also auf die Mission gemacht, die geilste Check-In-Plattform für Coaches auf dem Markt zu kreieren, die man sich leisten kann und will. Die Zusammenarbeit lief blendend. Ich sag was ich will, Emre setzt um. Aus um meiner Sicht die perfekte Aufgabenverteilung, oder Emre? Der Paul-O-Mat ist nicht perfekt – wissen wir. Aber er ist auf dem Weg dahin. Dafür brauchen wir aber Kohle, Coaches mit vielen Ideen und Kohle. Und genau deshalb bist du hier. Du wirst Teil der Entwicklung. Einmal mit deiner monatlichen Finanzspritze, und zum anderen mit deinen Verbesserungsvorschlägen, die entweder im Papierkorb, oder in der fertigen Plattform landen werden.",
       cta: "Mehr erfahren"
     },
 
     // CTA Section
     cta: {
-      title: "Bereit, deine Coaching-Praxis zu revolutionieren?",
-      description: "Starte heute und erlebe, wie einfach individuelles Hochleistungs-Coaching sein kann.",
+      title: "Bereit für sexy Coaching?",
+      description: "Starte heute und verabschiede dich von Excel-Chaos.",
       button: "Jetzt starten"
     },
 
     // Pricing Section
     pricing: {
-      title: "Preise",
-      subtitle: "Faire, transparente Preisgestaltung für jeden Coach",
+      title: "Ein Preis. Das volle Produkt.",
+      subtitle: "Der Paul-O-Mat kostet dich mit allen Features und direktem Kontakt mit Emre oder mir gerade einmal 20€ im Monat.",
       monthly: "Monat",
       onetime: "einmalig",
       popular: "Beliebt",
-      limitedTime: "Für limitierte Zeit",
-      cta: "Kostenlos anmelden",
+      limitedTime: "20€ - das sind in der heutigen Zeit nicht mal zwei Döner. Als gib dir einen Ruck und uns dein Geld.",
+      cta: "Jetzt anmelden",
       tiers: [
         {
-          name: "Free",
-          price: "0",
-          priceLabel: "Kostenlos",
-          description: "Für limitierte Zeit",
-          features: [
-            "Bis zu 5 Athleten",
-            "Unbegrenzte Gewohnheiten & Ziele",
-            "Streak-Tracking",
-            "Basis-Support",
-            "Mobile App Zugang"
-          ]
-        },
-        {
-          name: "Professional",
-          price: "50",
-          priceLabel: "€50",
+          name: "Paul-O-Mat",
+          price: "20",
+          priceLabel: "€20",
           period: "Monat",
-          description: "Perfekt für etablierte Coaches",
+          description: "Das volle Produkt. Alle Features. Direkter Kontakt.",
           features: [
-            "Bis zu 50 Athleten",
-            "Alle Free Features",
-            "Erweiterte Analysen",
-            "Prioritäts-Support",
-            "Gewohnheits-Vorlagen",
-            "Export-Funktionen"
+            "Alle Features inklusive",
+            "Unbegrenzte Athleten",
+            "Direkter Kontakt mit Paul & Emre",
+            "Alle zukünftigen Updates",
+            "Gewohnheits-Tracking & Streaks",
+            "Individuelles Athletenmanagement"
           ]
+        }
+      ]
+    },
+
+    // Testimonials Section
+    testimonials: {
+      title: "Schau was unsere Kunden sagen.",
+      subtitle: "Echte Reviews von echten Nutzern",
+      items: [
+        {
+          name: "Paul",
+          rating: 5,
+          text: "Genial. Ich zahl keinen Cent und hab ein geiles Produkt. Pech, Emre, hättest mal besser verhandelt."
         },
         {
-          name: "Lifetime",
-          price: "200",
-          priceLabel: "€200",
-          period: "einmalig",
-          description: "Für ernsthafte Coaching-Profis",
-          features: [
-            "Unbegrenzt Athleten",
-            "Alle Professional Features",
-            "Lebenslanger Zugang",
-            "Dedizierter Support",
-            "Früher Zugang zu neuen Features",
-            "Prioritäts-Feature-Requests"
-          ]
+          name: "Paul",
+          rating: 5,
+          text: "Geile Plattform. Sogar nach mir benannt. Mama – bist du stolz auf mich?"
+        },
+        {
+          name: "Paul",
+          rating: 5,
+          text: "Das Logo zeigt anscheinend ein bekanntest europäisches Model – gefällt mir."
         }
       ]
     },
 
     // FAQ Section
     faq: {
-      title: "Häufig gestellte Fragen",
-      subtitle: "Alle Antworten, die du brauchst",
+      title: "FAQ",
+      subtitle: "Alle wichtigen Fragen beantwortet",
       items: [
         {
-          question: "Wie schnell kann ich starten?",
-          answer: "Du kannst in weniger als 5 Minuten loslegen. Registriere dich, lade deinen ersten Athleten ein und beginne sofort mit dem Tracking. Kein komplexes Setup, keine steile Lernkurve."
-        },
-        {
-          question: "Welche Integrationen unterstützt Die Coach?",
-          answer: "Die Coach funktioniert mit deinem bestehenden Workflow. Du kannst Links zu externen Tools (Google Sheets, Notion, Trainerize, etc.) direkt in Athleten-Profilen hinterlegen. Weitere native Integrationen folgen."
-        },
-        {
-          question: "Kann ich jederzeit kündigen?",
-          answer: "Ja, absolut. Keine Vertragsbindung, keine versteckten Gebühren. Du kannst jederzeit mit einem Klick kündigen. Deine Daten bleiben 30 Tage lang verfügbar."
-        },
-        {
-          question: "Gibt es eine mobile App?",
-          answer: "Ja! Die Coach ist vollständig responsiv und funktioniert perfekt auf allen Geräten. Native iOS und Android Apps sind in Entwicklung."
-        },
-        {
-          question: "Was passiert mit meinen Daten?",
-          answer: "Deine Daten gehören dir. Wir nutzen europäische Server (DSGVO-konform), verschlüsseln alle Daten und verkaufen niemals Informationen an Dritte. Du kannst jederzeit exportieren."
+          question: "Hat Paul den dicksten Bizeps im Lande?",
+          answer: "Daran besteht kein Zweifel. Warum stellst du so anmaßende Fragen?"
         },
         {
           question: "Wann kommt die KI-Integration?",
-          answer: "Die KI-Features sind aktuell in der Beta-Phase und werden Q2 2025 für alle Premium-Nutzer verfügbar. Sie werden Muster erkennen, Empfehlungen geben und proaktive Insights liefern."
+          answer: "Keine Ahnung. Sind wir hier bei einem FAQ oder was?"
+        },
+        {
+          question: "Kann ich jederzeit kündigen?",
+          answer: "Nö – du bist für immer an die Plattform gebunden. Geistig, körperlich und finanziell. Der Paul-O-Mat wird dich komplett einnehmen, ohne Ausweg. (Ja kannst du – entspann dich.)"
+        },
+        {
+          question: "Was passiert mit meinen Daten?",
+          answer: "Die verkaufen wir nach China, um noch mehr Kohle zu machen. (Emre hat mich gezwungen folgendes zu schreiben: Deine Daten gehören dir. Wir nutzen europäische Server (DSGVO-konform), verschlüsseln alle Daten und verkaufen niemals Informationen an Dritte. Du kannst jederzeit exportieren.)"
+        },
+        {
+          question: "Gibt es eine mobile App?",
+          answer: "Also so eine richtige App-App nicht, du kannst es aber auf mobilen Geräten sorgenfrei nutzen. Native iOS und Android-Apps sind in Entwicklung und langfristig geplant (sind sie nicht – weißt du was das kostet? Außerdem ist Emre dafür zu langsam)"
+        },
+        {
+          question: "Kann ich euch auch mehr zahlen?",
+          answer: "Ja! Du darfst uns so viel Geld geben wie du möchtest! Je mehr Geld du uns zahlst, desto schneller bekomme ich meinen Porsche und desto schneller kann ich Emre aus dem Keller wieder rauslassen."
         }
       ]
     },
@@ -159,15 +142,15 @@ const translations = {
     // Team Section
     team: {
       title: "Unser Team",
-      subtitle: "Die Menschen hinter Die Coach",
+      subtitle: "Die Menschen hinter dem Paul-O-Mat",
       members: [
         {
           name: "Emrehan",
-          role: "Co-Founder"
+          role: "Co-Founder (Der mit den Computern)"
         },
         {
           name: "Paul",
-          role: "Co-Founder"
+          role: "Co-Founder (Das europäische Model)"
         }
       ]
     },
@@ -185,43 +168,43 @@ const translations = {
 
     // Footer
     footer: {
-      description: "Premium-Coaching-App für echte 1:1-Betreuung. Individuell statt industriell.",
+      description: "Der Paul-O-Mat – Coaching in sexy, ohne Excel-Chaos.",
       quickLinks: "Quick Links",
       legal: "Legal",
       privacy: "Datenschutz",
       terms: "AGB",
       imprint: "Impressum",
       followUs: "Folge uns",
-      copyright: "© 2025 Die Coach. Alle Rechte vorbehalten."
+      copyright: "© 2025 Paul-O-Mat. Alle Rechte vorbehalten."
     },
 
-    // Promise Section (can be added to about or separate)
+    // Promise Section
     promise: {
-      title: "Unser Versprechen",
+      title: "Warum der Paul-O-Mat?",
       items: [
         {
-          title: "Individuell statt industriell",
-          description: "Jede Funktion für 1:1-Coaching-Exzellenz entwickelt"
+          title: "Besser als Excel",
+          description: "Weil nur Loser Excel nutzen"
         },
         {
-          title: "Beste UX am Markt",
-          description: "Clean, schnell, intuitiv – wir optimieren jede Interaktion"
+          title: "Sexy Coaching",
+          description: "Endlich sieht dein Coaching-Setup nicht mehr scheiße aus"
         },
         {
-          title: "Einfachstes Setup",
-          description: "Starte in Minuten, nicht Stunden"
+          title: "Keine riesen Kostenberge",
+          description: "Nur 20€ im Monat – günstiger als zwei Döner"
         },
         {
-          title: "Faire Preise",
-          description: "Keine Enterprise-Fallen, keine versteckten Gebühren"
+          title: "Nach Paul benannt",
+          description: "Mit seinem Gesicht als Logo. Der Traum."
         },
         {
-          title: "Flexibilität zuerst",
-          description: "Dein Workflow, deine Regeln – wir passen uns an"
+          title: "Emre setzt um",
+          description: "Paul sagt was er will, Emre macht's"
         },
         {
-          title: "KI, die wirklich hilft",
-          description: "Tiefe Intelligenz für beide Seiten der Coaching-Beziehung"
+          title: "Du bist Teil davon",
+          description: "Mit deiner Kohle und deinen Ideen (die vielleicht umgesetzt werden)"
         }
       ]
     }
@@ -241,144 +224,127 @@ const translations = {
 
     // Hero Section
     hero: {
-      title: "High-performance coaching, personally delivered",
-      subtitle: "Die Coach is a premium coaching app built for the 1:1 relationship between coach and athlete. No mass solutions, no standardization – just individual, uncompromising coaching.",
+      title: "The Paul-O-Mat – because only losers use Excel.",
+      subtitle: "I'm Paul – coach for ambitious bodybuilders – and I find Excel terrible. Every check-in with my athletes is an organizational chaos and let's be honest – it looks like crap. That's why I built the Paul-O-Mat with my buddy Emre. Simply because we can. Coaching in sexy, basically, and all without massive costs. And to do my oversized ego another favor, we named the platform after me. And even used my face as the logo. I'm living the dream. Sorry Emre, but Emre-O-Mat just sounds dumb.",
       ctaPrimary: "Get Started Free",
       ctaSecondary: "Learn More",
-      tagline: "Built for the 1:1, not the 1:1000"
+      tagline: "Sexy coaching – without Excel chaos"
     },
 
     // Features Section
     features: {
-      title: "Core Features",
-      subtitle: "Everything you need for exceptional 1:1 coaching",
+      title: "We can do everything your current system does. Just better, faster, prettier, and with more charm.",
+      subtitle: "Everything for professional coaching",
       list: [
         {
           title: "True 1:1 Athlete Management",
-          description: "Each athlete gets your undivided digital attention. Individual profiles, personalized habits, custom goals – no cookie-cutter approaches."
+          description: "We coaches all have the same problem. Wake up in the morning, open WhatsApp, and immediately get the question 'Coach, what do I have to do today?'. Don't annoy me, man. The Paul-O-Mat gives you the ability to minimize social interactions to an absolute minimum, so you can continue living your introverted dream in your 20 square meter apartment. Each athlete has an individual profile with personalized tracking parameters and customized goals."
         },
         {
           title: "Intelligent Habit Tracking",
-          description: "Three habit types: checkbox, numeric tracking, and ratings. Flexible frequency targets with optional proof uploads and notes for full accountability."
+          description: "Whether checkbox, numeric tracking, or ratings. You can even force your athletes to deliver proof and notes to you – how awesome is that?"
         },
         {
           title: "Automatic Streak Tracking",
-          description: "Visual streak tracking that motivates without gimmicks. Current and all-time records at a glance with data-driven insights into consistency patterns."
-        },
-        {
-          title: "Precision Goal Setting",
-          description: "Daily calorie and macro targets with smart validation. Time-bound objectives with clear milestones that actually align with the athlete's bigger picture."
-        },
-        {
-          title: "Works With Your Setup",
-          description: "Add hard links to external resources directly in the app. Die Coach integrates into your system, not the other way around. Your workflow, your rules."
-        },
-        {
-          title: "AI-Powered Insights",
-          description: "Deep AI integration for both coach and athlete side. Intelligent pattern recognition across habit data with proactive alerts and recommendations. (Coming Soon)"
+          description: "Nothing works without streaks these days. Instead of collecting flames on Snapchat like all the low-performers, we focus on streak goals in the Paul-O-Mat. The more your athlete reports back, the higher the streak. We ride the dopamine wave and get the athlete addicted. Pretty genius, actually. If they forget a check-in, they lose the streak."
         }
       ]
     },
 
     // About Section
     about: {
-      title: "What is Die Coach?",
-      subtitle: "Our Philosophy",
-      description: "High-performance coaching isn't about templates and automation – it's about deep, personal connection. Every athlete is different. Every goal is unique. Die Coach gives you the tools to maintain that individual focus, even as your roster grows.",
+      title: "Who are we anyway?",
+      subtitle: "The story behind Paul-O-Mat",
+      description: "Emre and I, Paul, have known each other for an incredibly long time. Initially, Emre was in lifestyle coaching with me, which failed miserably (it was his fault). Nevertheless, he was able to gain insight into how the coaching process works. Since he's somewhat programming-savvy (to this day, I don't really know what he does professionally – something with computers) and I'm extremely opportunistic, we both had a brilliant idea: We need to somehow bring the coaching process, as practiced by every self-proclaimed fitness coach on social media, into the 21st century. Excel is simply no longer state-of-the-art. All the organization around coaching distracts us from what's actually important: the coaching. The Paul-O-Mat was born. So we both set out on a mission to create the coolest check-in platform for coaches on the market that you can afford and want. The collaboration went brilliantly. I say what I want, Emre implements it. From my perspective, the perfect division of tasks, right Emre? The Paul-O-Mat isn't perfect – we know that. But it's on the way there. For that, we need money, coaches with lots of ideas, and money. And that's exactly why you're here. You'll be part of the development. Once with your monthly financial injection, and secondly with your improvement suggestions, which will either end up in the trash or in the finished platform.",
       cta: "Learn More"
     },
 
     // CTA Section
     cta: {
-      title: "Ready to Transform Your Coaching Practice?",
-      description: "Start today and experience how simple individual high-performance coaching can be.",
+      title: "Ready for sexy coaching?",
+      description: "Start today and say goodbye to Excel chaos.",
       button: "Get Started Now"
     },
 
     // Pricing Section
     pricing: {
-      title: "Pricing",
-      subtitle: "Fair, transparent pricing for every coach",
+      title: "One price. The full product.",
+      subtitle: "The Paul-O-Mat costs you just €20 per month with all features and direct contact with Emre or me.",
       monthly: "month",
       onetime: "one-time",
       popular: "Popular",
-      limitedTime: "For Limited Time",
-      cta: "Sign Up Free",
+      limitedTime: "€20 - that's not even two kebabs these days. So give yourself a push and give us your money.",
+      cta: "Sign Up Now",
       tiers: [
         {
-          name: "Free",
-          price: "0",
-          priceLabel: "Free",
-          description: "For Limited Time",
-          features: [
-            "Up to 5 athletes",
-            "Unlimited habits & goals",
-            "Streak tracking",
-            "Basic support",
-            "Mobile app access"
-          ]
-        },
-        {
-          name: "Professional",
-          price: "50",
-          priceLabel: "€50",
+          name: "Paul-O-Mat",
+          price: "20",
+          priceLabel: "€20",
           period: "month",
-          description: "Perfect for established coaches",
+          description: "The full product. All features. Direct contact.",
           features: [
-            "Up to 50 athletes",
-            "All Free features",
-            "Advanced analytics",
-            "Priority support",
-            "Habit templates",
-            "Export functions"
+            "All features included",
+            "Unlimited athletes",
+            "Direct contact with Paul & Emre",
+            "All future updates",
+            "Habit tracking & streaks",
+            "Individual athlete management"
           ]
+        }
+      ]
+    },
+
+    // Testimonials Section
+    testimonials: {
+      title: "See what our customers say.",
+      subtitle: "Real reviews from real users",
+      items: [
+        {
+          name: "Paul",
+          rating: 5,
+          text: "Genius. I pay nothing and have an awesome product. Bad luck, Emre, should have negotiated better."
         },
         {
-          name: "Lifetime",
-          price: "200",
-          priceLabel: "€200",
-          period: "one-time",
-          description: "For serious coaching professionals",
-          features: [
-            "Unlimited athletes",
-            "All Professional features",
-            "Lifetime access",
-            "Dedicated support",
-            "Early access to new features",
-            "Priority feature requests"
-          ]
+          name: "Paul",
+          rating: 5,
+          text: "Awesome platform. Even named after me. Mom – are you proud of me?"
+        },
+        {
+          name: "Paul",
+          rating: 5,
+          text: "The logo apparently shows a well-known European model – I like it."
         }
       ]
     },
 
     // FAQ Section
     faq: {
-      title: "Frequently Asked Questions",
-      subtitle: "All the answers you need",
+      title: "FAQ",
+      subtitle: "All important questions answered",
       items: [
         {
-          question: "How quickly can I get started?",
-          answer: "You can be up and running in less than 5 minutes. Sign up, invite your first athlete, and start tracking immediately. No complex setup, no steep learning curve."
-        },
-        {
-          question: "What integrations does Die Coach support?",
-          answer: "Die Coach works with your existing workflow. You can add links to external tools (Google Sheets, Notion, Trainerize, etc.) directly in athlete profiles. More native integrations coming soon."
-        },
-        {
-          question: "Can I cancel anytime?",
-          answer: "Yes, absolutely. No contracts, no hidden fees. You can cancel with one click at any time. Your data remains available for 30 days."
-        },
-        {
-          question: "Is there a mobile app?",
-          answer: "Yes! Die Coach is fully responsive and works perfectly on all devices. Native iOS and Android apps are in development."
-        },
-        {
-          question: "What happens to my data?",
-          answer: "Your data belongs to you. We use European servers (GDPR compliant), encrypt all data, and never sell information to third parties. You can export anytime."
+          question: "Does Paul have the biggest biceps in the country?",
+          answer: "There's no doubt about that. Why are you asking such presumptuous questions?"
         },
         {
           question: "When is the AI integration coming?",
-          answer: "AI features are currently in beta and will be available to all Premium users in Q2 2025. They will recognize patterns, provide recommendations, and deliver proactive insights."
+          answer: "No idea. Are we in an FAQ or what?"
+        },
+        {
+          question: "Can I cancel anytime?",
+          answer: "Nope – you're forever bound to the platform. Mentally, physically, and financially. The Paul-O-Mat will completely consume you, no way out. (Yes you can – relax.)"
+        },
+        {
+          question: "What happens to my data?",
+          answer: "We sell it to China to make even more money. (Emre forced me to write the following: Your data belongs to you. We use European servers (GDPR compliant), encrypt all data, and never sell information to third parties. You can export anytime.)"
+        },
+        {
+          question: "Is there a mobile app?",
+          answer: "Not a real app-app, but you can use it worry-free on mobile devices. Native iOS and Android apps are in development and planned long-term (they're not – do you know what that costs? Plus, Emre is too slow for that)"
+        },
+        {
+          question: "Can I pay you more?",
+          answer: "Yes! You're allowed to give us as much money as you want! The more money you pay us, the faster I get my Porsche and the faster I can let Emre out of the basement."
         }
       ]
     },
@@ -386,15 +352,15 @@ const translations = {
     // Team Section
     team: {
       title: "Our Team",
-      subtitle: "The people behind Die Coach",
+      subtitle: "The people behind Paul-O-Mat",
       members: [
         {
           name: "Emrehan",
-          role: "Co-Founder"
+          role: "Co-Founder (The computer guy)"
         },
         {
           name: "Paul",
-          role: "Co-Founder"
+          role: "Co-Founder (The European model)"
         }
       ]
     },
@@ -412,43 +378,43 @@ const translations = {
 
     // Footer
     footer: {
-      description: "Premium coaching app for true 1:1 relationships. Individual over industrial.",
+      description: "Paul-O-Mat – Sexy coaching without Excel chaos.",
       quickLinks: "Quick Links",
       legal: "Legal",
       privacy: "Privacy",
       terms: "Terms",
       imprint: "Imprint",
       followUs: "Follow Us",
-      copyright: "© 2025 Die Coach. All rights reserved."
+      copyright: "© 2025 Paul-O-Mat. All rights reserved."
     },
 
     // Promise Section
     promise: {
-      title: "Our Promise",
+      title: "Why Paul-O-Mat?",
       items: [
         {
-          title: "Individual Over Industrial",
-          description: "Every feature designed for 1:1 coaching excellence"
+          title: "Better than Excel",
+          description: "Because only losers use Excel"
         },
         {
-          title: "Best UX on the Market",
-          description: "Clean, fast, intuitive – we obsess over every interaction"
+          title: "Sexy Coaching",
+          description: "Finally your coaching setup doesn't look like crap anymore"
         },
         {
-          title: "Easiest Setup",
-          description: "Get started in minutes, not hours"
+          title: "No massive costs",
+          description: "Only €20 per month – cheaper than two kebabs"
         },
         {
-          title: "Fair Pricing",
-          description: "No enterprise gotchas, no hidden fees"
+          title: "Named after Paul",
+          description: "With his face as the logo. The dream."
         },
         {
-          title: "Flexibility First",
-          description: "Your workflow, your rules – we adapt to you"
+          title: "Emre implements",
+          description: "Paul says what he wants, Emre does it"
         },
         {
-          title: "AI That Actually Helps",
-          description: "Deep intelligence for both sides of the coaching relationship"
+          title: "You're part of it",
+          description: "With your money and your ideas (which might get implemented)"
         }
       ]
     }
