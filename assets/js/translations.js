@@ -28,7 +28,7 @@ const translations = {
       list: [
         {
           title: "Echtes 1:1 Athletenmanagement",
-          description: "Wir Coaches haben alle das gleiche Problem. Morgens aufgestanden, WhatsApp geöffnet und gleich die Frage „Coach was muss ich heute machen?". Nerv nicht, oida. Der Paul-O-Mat gibt dir die Möglichkeit, soziale Interaktionen auf ein absolutes Minimum zu beschränken, damit du deinen introvertierten Traum in deiner 20 Quadratmeter Bude weiter ausleben kannst. Jeder Athlet hat ein individuelles Profil mit personalisierten Tracking-Parametern sowie maßgeschneiderten Zielen."
+          description: "Wir Coaches haben alle das gleiche Problem. Morgens aufgestanden, WhatsApp geöffnet und gleich die Frage 'Coach was muss ich heute machen?'. Nerv nicht, oida. Der Paul-O-Mat gibt dir die Möglichkeit, soziale Interaktionen auf ein absolutes Minimum zu beschränken, damit du deinen introvertierten Traum in deiner 20 Quadratmeter Bude weiter ausleben kannst. Jeder Athlet hat ein individuelles Profil mit personalisierten Tracking-Parametern sowie maßgeschneiderten Zielen."
         },
         {
           title: "Intelligentes Gewohnheitstracking",
@@ -63,8 +63,10 @@ const translations = {
       monthly: "Monat",
       onetime: "einmalig",
       popular: "Beliebt",
-      limitedTime: "20€ - das sind in der heutigen Zeit nicht mal zwei Döner. Als gib dir einen Ruck und uns dein Geld.",
+      limitedTime: "Limitiertes Angebot",
+      limitedTimeDescription: "20€ - das sind in der heutigen Zeit nicht mal zwei Döner. Als gib dir einen Ruck und uns dein Geld.",
       cta: "Jetzt anmelden",
+      betaCta: "Jetzt bewerben",
       tiers: [
         {
           name: "Paul-O-Mat",
@@ -79,6 +81,23 @@ const translations = {
             "Alle zukünftigen Updates",
             "Gewohnheits-Tracking & Streaks",
             "Individuelles Athletenmanagement"
+          ]
+        },
+        {
+          name: "Beta Programm",
+          price: "0",
+          priceLabel: "Kostenlos",
+          period: "3 Monate",
+          badge: "Limitiertes Angebot",
+          description: "Invite-Only. Bewirb dich jetzt für frühen Zugang.",
+          contactEmail: "paul.wurche.coaching@gmail.com",
+          features: [
+            "Alle Features inklusive",
+            "Unbegrenzte Athleten",
+            "Direkter Kontakt mit Paul & Emre",
+            "3 Monate kostenlos",
+            "Gewohnheits-Tracking & Streaks",
+            "Früher Zugang zu neuen Features"
           ]
         }
       ]
@@ -273,8 +292,10 @@ const translations = {
       monthly: "month",
       onetime: "one-time",
       popular: "Popular",
-      limitedTime: "€20 - that's not even two kebabs these days. So give yourself a push and give us your money.",
+      limitedTime: "Limited Offer",
+      limitedTimeDescription: "€20 - that's not even two kebabs these days. So give yourself a push and give us your money.",
       cta: "Sign Up Now",
+      betaCta: "Apply Now",
       tiers: [
         {
           name: "Paul-O-Mat",
@@ -289,6 +310,23 @@ const translations = {
             "All future updates",
             "Habit tracking & streaks",
             "Individual athlete management"
+          ]
+        },
+        {
+          name: "Beta Program",
+          price: "0",
+          priceLabel: "Free",
+          period: "3 months",
+          badge: "Limited Offer",
+          description: "Invite-only. Apply now for early access.",
+          contactEmail: "paul.wurche.coaching@gmail.com",
+          features: [
+            "All features included",
+            "Unlimited athletes",
+            "Direct contact with Paul & Emre",
+            "3 months free",
+            "Habit tracking & streaks",
+            "Early access to new features"
           ]
         }
       ]
@@ -426,6 +464,7 @@ class LanguageSwitcher {
   constructor() {
     // Check URL parameter first, then localStorage, default to 'de'
     this.currentLang = this.getLangFromURL() || localStorage.getItem('language') || 'de';
+    console.log('[LanguageSwitcher] Initializing with language:', this.currentLang);
     this.init();
   }
 
@@ -453,14 +492,23 @@ class LanguageSwitcher {
 
     // Add event listener to language toggle button
     const langToggle = document.getElementById('languageToggle');
+    console.log('[LanguageSwitcher] Language toggle button found:', !!langToggle);
     if (langToggle) {
-      langToggle.addEventListener('click', () => this.switchLanguage());
+      langToggle.addEventListener('click', () => {
+        console.log('[LanguageSwitcher] Button clicked!');
+        this.switchLanguage();
+      });
       langToggle.textContent = translations[this.currentLang].nav.language;
+      console.log('[LanguageSwitcher] Button text set to:', langToggle.textContent);
+    } else {
+      console.error('[LanguageSwitcher] Language toggle button NOT found!');
     }
   }
 
   switchLanguage() {
+    console.log('[LanguageSwitcher] Switching from', this.currentLang);
     this.currentLang = this.currentLang === 'de' ? 'en' : 'de';
+    console.log('[LanguageSwitcher] Switched to', this.currentLang);
     localStorage.setItem('language', this.currentLang);
     document.documentElement.lang = this.currentLang;
     this.updateURL(this.currentLang);
@@ -470,6 +518,7 @@ class LanguageSwitcher {
     const langToggle = document.getElementById('languageToggle');
     if (langToggle) {
       langToggle.textContent = translations[this.currentLang].nav.language;
+      console.log('[LanguageSwitcher] Button text updated to:', langToggle.textContent);
     }
   }
 
@@ -513,5 +562,7 @@ class LanguageSwitcher {
 
 // Initialize language switcher when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('[LanguageSwitcher] DOM loaded, creating LanguageSwitcher instance');
   window.languageSwitcher = new LanguageSwitcher();
+  console.log('[LanguageSwitcher] Instance created:', window.languageSwitcher);
 });
