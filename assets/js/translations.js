@@ -14,29 +14,29 @@ const translations = {
 
     // Hero Section
     hero: {
-      title: "Der Paul-O-Mat – weil nur Loser Excel nutzen.",
-      subtitle: "Ich bin Paul – Coach für ambitionierte Bodybuilder – und ich finde Excel ätzend. Jeder Check-In mit meinen Athleten ist ein organisatorisches Chaos und sind wir mal ehrlich – das sieht doch scheiße aus. Deshalb habe ich mit meinem Kumpel Emre den Paul-O-Maten gebastelt. Einfach, weil wir es können. Coaching in jazzy quasi, und das Ganze ohne riesen Kostenberge. Und um meinem übergroßen Ego noch einen Gefallen zu tun, haben wir die Plattform nach mir benannt. Und auch noch meine Fresse als Logo genommen. Ich lebe den Traum. Sorry Emre, aber Emre-O-Mat klingt einfach Banane.",
-      ctaPrimary: "Kostenlos starten",
+      title: "Der Paul-O-Mat – Coaching ohne Excel-Chaos",
+      subtitle: "Ich bin Paul – Coach für ambitionierte Bodybuilder – und ich finde Excel ätzend. Jeder Check-In mit meinen Athleten ist organisatorisches Chaos. Deshalb haben Emre und ich den Paul-O-Maten gebaut. Coaching in jazzy quasi, ohne dass es dich ein Vermögen kostet. Und um meinem übergroßen Ego einen Gefallen zu tun, haben wir die Plattform nach mir benannt. Sogar mein Gesicht als Logo. Ich lebe den Traum. Emre-O-Mat hätte aber auch nicht so gut geklungen, oder?",
+      ctaPrimary: "Für Beta bewerben",
       ctaSecondary: "Mehr erfahren",
       tagline: "Coaching in jazzy – ohne Excel-Chaos"
     },
 
     // Features Section
     features: {
-      title: "Wir können alles, was dein bisheriges System auch kann. Nur besser, schneller, schöner und mit mehr Charme.",
+      title: "Alles, was dein bisheriges System kann. Nur besser, schneller, schöner und mit mehr Charme.",
       subtitle: "Alles für professionelles Coaching",
       list: [
         {
           title: "Echtes 1:1 Athletenmanagement",
-          description: "Wir Coaches haben alle das gleiche Problem. Morgens aufgestanden, WhatsApp geöffnet und gleich die Frage 'Coach was muss ich heute machen?'. Nerv nicht, oida. Der Paul-O-Mat gibt dir die Möglichkeit, soziale Interaktionen auf ein absolutes Minimum zu beschränken, damit du deinen introvertierten Traum in deiner 20 Quadratmeter Bude weiter ausleben kannst. Jeder Athlet hat ein individuelles Profil mit personalisierten Tracking-Parametern sowie maßgeschneiderten Zielen."
+          description: "Kennst du das? Morgens WhatsApp aufgemacht und sofort die Frage: 'Coach, was muss ich heute machen?' Der Paul-O-Mat organisiert das für dich. Jeder Athlet bekommt sein individuelles Profil mit personalisierten Tracking-Parametern und maßgeschneiderten Zielen. So hast du mehr Zeit fürs eigentliche Coaching – und weniger Chaos in deinem Postfach."
         },
         {
           title: "Intelligentes Gewohnheitstracking",
-          description: "Egal ob Checkbox, numerisches Tracking oder Bewertungen. Du kannst sogar deinen Athleten dazu zwingen, dir Nachweise und Notizen zu liefern – wie geil ist das denn?"
+          description: "Ob Checkbox, numerisches Tracking oder Bewertungen – du entscheidest, wie deine Athleten ihre Fortschritte festhalten. Nachweise und Notizen inklusive. Alles an einem Ort, immer verfügbar."
         },
         {
           title: "Automatisches Streak-Tracking",
-          description: "Ohne Streaks geht doch heute fast nichts. Anstatt wie die ganzen Low-Performer Flammen auf Snapchat zu sammeln widmen wir uns Streak-Zielen im Paul-O-Mat. Je mehr dein Athlet zurückmeldet, desto höher der Streak. Wir reiten die Dopamin-Welle und machen den Athleten süchtig. Eigentlich genial. Vergisst er mal einen Check-In, verliert er den Streak."
+          description: "Streaks funktionieren. Im Paul-O-Mat sammeln deine Athleten keine Snapchat-Flammen, sondern echte Check-In-Streaks. Je konsequenter dein Athlet zurückmeldet, desto höher der Streak. Das motiviert – und wenn mal ein Check-In vergessen wird, geht der Streak verloren. Einfaches Prinzip, große Wirkung."
         }
       ]
     },
@@ -45,7 +45,7 @@ const translations = {
     about: {
       title: "Wer sind wir eigentlich?",
       subtitle: "Die Story hinter dem Paul-O-Mat",
-      description: "Emre und Ich, Paul, kennen uns schon unglaublich lange. Zunächst war Emre im Lifestyle-Coaching bei mir, was kläglich gescheitert ist (er war schuld). Trotzdem konnte er so Einblick gewinnen, wie der Prozess des Coachings abläuft. Da er etwas Programmier-Affin ist (ich weiß bis heute nicht so richtig, was er eigentlich beruflich macht – irgendwas mit Computern) und ich maximal opportunistisch, hatten wir beide eine brillante Idee: Wir müssen den Prozess des Coachings, wie ihn jeder selbsternannte Fitness-Coach auf Social Media betreibt, doch irgendwie in das 21. Jahrhundert holen. Excel ist einfach nicht mehr State-of-the-Art. Die ganze Organisation um das Coaching herum lenkt uns von dem ab, was eigentlich wichtig ist: das Coaching. Der Paul-O-Mat war geboren. Wir beide haben uns also auf die Mission gemacht, die geilste Check-In-Plattform für Coaches auf dem Markt zu kreieren, die man sich leisten kann und will. Die Zusammenarbeit lief blendend. Ich sag was ich will, Emre setzt um. Aus um meiner Sicht die perfekte Aufgabenverteilung, oder Emre? Der Paul-O-Mat ist nicht perfekt – wissen wir. Aber er ist auf dem Weg dahin. Dafür brauchen wir aber Kohle, Coaches mit vielen Ideen und Kohle. Und genau deshalb bist du hier. Du wirst Teil der Entwicklung. Einmal mit deiner monatlichen Finanzspritze, und zum anderen mit deinen Verbesserungsvorschlägen, die entweder im Papierkorb, oder in der fertigen Plattform landen werden.",
+      description: "Emre und ich, Paul, kennen uns schon ewig. Emre war mal im Lifestyle-Coaching bei mir und konnte so miterleben, wie der Coaching-Prozess wirklich abläuft – mit all dem organisatorischen Chaos. Da Emre programmieren kann (irgendwas mit Computern halt) und ich als Coach wusste, was wir brauchen, hatten wir beide die Idee: Wir müssen Coaching in das 21. Jahrhundert holen. Excel ist einfach nicht mehr zeitgemäß. Die ganze Organisation lenkt vom Wesentlichen ab – dem eigentlichen Coaching. Also haben wir uns zusammengesetzt und den Paul-O-Mat gebaut. Unsere Mission: Die beste Check-In-Plattform für Coaches, die bezahlbar ist und Spaß macht. Die Zusammenarbeit funktioniert super – ich bringe die Coach-Perspektive ein, Emre setzt es technisch um. Der Paul-O-Mat ist noch nicht perfekt, das wissen wir. Aber er ist auf dem Weg dahin. Und genau deshalb bist du hier. Du wirst Teil der Entwicklung. Mit deinem Feedback hilfst du uns, die Plattform noch besser zu machen. Gemeinsam bauen wir das Tool, das Coaches wirklich brauchen.",
       cta: "Mehr erfahren",
       stat: {
         years: "01",
@@ -57,22 +57,22 @@ const translations = {
     // CTA Section
     cta: {
       title: "Bereit für jazzy Coaching?",
-      description: "Starte heute und verabschiede dich von Excel-Chaos.",
-      button: "Jetzt starten"
+      description: "Bewirb dich jetzt für das Beta-Programm und werde Teil unserer Community.",
+      button: "Für Beta bewerben"
     },
 
     // Pricing Section
     pricing: {
-      badge: "Preise",
-      title: "Ein Preis. Das volle Produkt.",
-      subtitle: "Der Paul-O-Mat kostet dich mit allen Features und direktem Kontakt mit Emre oder mir gerade einmal 20€ im Monat.",
+      badge: "Beta Programm",
+      title: "Werde Teil unserer Beta-Community",
+      subtitle: "Sichere dir jetzt 3 Monate kostenlosen Zugang zum Paul-O-Mat. Alles was wir dafür brauchen: Dein ehrliches Feedback.",
       monthly: "Monat",
       onetime: "einmalig",
       popular: "Beliebt",
-      limitedTime: "Limitiertes Angebot",
-      limitedTimeDescription: "20€ - das sind in der heutigen Zeit nicht mal zwei Döner. Als gib dir einen Ruck und uns dein Geld.",
+      limitedTime: "Limitierte Plätze",
+      limitedTimeDescription: "Wir suchen Coaches, die den Paul-O-Mat mit uns weiterentwickeln wollen. Du bekommst vollen Zugang, wir bekommen wertvolles Feedback. Fair, oder?",
       cta: "Jetzt anmelden",
-      betaCta: "Jetzt bewerben",
+      betaCta: "Für Beta bewerben",
       tiers: [
         {
           name: "Paul-O-Mat",
@@ -94,14 +94,15 @@ const translations = {
           price: "0",
           priceLabel: "Kostenlos",
           period: "3 Monate",
-          badge: "Limitiertes Angebot",
-          description: "Invite-Only. Bewirb dich jetzt für frühen Zugang.",
+          badge: "Limitierte Plätze",
+          description: "Erhalte vollen Zugang zur Plattform. Wir stellen dir in einem persönlichen Demo-Call alles vor. Im Gegenzug: Dein ehrliches Feedback hilft uns besser zu werden.",
           contactEmail: "paul.wurche.coaching@gmail.com",
           features: [
             "Alle Features inklusive",
             "Unbegrenzte Athleten",
-            "Direkter Kontakt mit Paul & Emre",
-            "3 Monate kostenlos",
+            "Persönlicher Demo-Call mit uns",
+            "Direkter Draht zu Paul & Emre",
+            "3 Monate komplett kostenlos",
             "Gewohnheits-Tracking & Streaks",
             "Früher Zugang zu neuen Features"
           ]
@@ -111,23 +112,23 @@ const translations = {
 
     // Testimonials Section
     testimonials: {
-      title: "Schau was unsere Kunden sagen.",
-      subtitle: "Echte Reviews von echten Nutzern",
+      title: "Hier könnte dein Feedback stehen.",
+      subtitle: "Als Beta-Tester hilfst du uns, die Plattform zu verbessern",
       items: [
         {
-          name: "Paul",
+          name: "Dein Name?",
           rating: 5,
-          text: "Genial. Ich zahl keinen Cent und hab ein geiles Produkt. Pech, Emre, hättest mal besser verhandelt."
+          text: "Als einer unserer ersten Beta-Tester bekommst du die Chance, den Paul-O-Mat mitzugestalten. Dein Feedback landet nicht im Papierkorb, sondern direkt in der Entwicklung."
         },
         {
-          name: "Paul",
+          name: "Auch du?",
           rating: 5,
-          text: "Geile Plattform. Sogar nach mir benannt. Mama – bist du stolz auf mich?"
+          text: "Wir suchen Coaches, die ehrlich sagen, was funktioniert und was nicht. Keine geschönten Reviews – sondern echtes Feedback, das uns weiterbringt."
         },
         {
-          name: "Paul",
+          name: "Vielleicht du?",
           rating: 5,
-          text: "Das Logo zeigt anscheinend ein bekanntest europäisches Model – gefällt mir."
+          text: "Bewirb dich jetzt für das Beta-Programm und sei dabei, wenn wir die beste Coaching-Plattform bauen. 3 Monate kostenlos. Kein Risiko. Nur ehrliches Feedback."
         }
       ]
     },
@@ -138,28 +139,28 @@ const translations = {
       subtitle: "Alle wichtigen Fragen beantwortet",
       items: [
         {
-          question: "Hat Paul den dicksten Bizeps im Lande?",
-          answer: "Daran besteht kein Zweifel. Warum stellst du so anmaßende Fragen?"
+          question: "Wie funktioniert das Beta-Programm?",
+          answer: "Du bewirbst dich über die Warteliste, wir schauen uns dein Profil an und melden uns bei dir. Dann vereinbaren wir einen Demo-Call, stellen dir alles vor und du bekommst 3 Monate vollen Zugang. Kostenlos. Im Gegenzug freuen wir uns über dein ehrliches Feedback."
         },
         {
-          question: "Wann kommt die KI-Integration?",
-          answer: "Keine Ahnung. Sind wir hier bei einem FAQ oder was?"
+          question: "Was kostet der Paul-O-Mat nach der Beta-Phase?",
+          answer: "Gute Frage! Das klären wir gerade noch. Für Beta-Tester wird es auf jeden Fall faire Konditionen geben. Du erfährst rechtzeitig Bescheid, bevor die kostenlosen 3 Monate enden."
         },
         {
-          question: "Kann ich jederzeit kündigen?",
-          answer: "Nö – du bist für immer an die Plattform gebunden. Geistig, körperlich und finanziell. Der Paul-O-Mat wird dich komplett einnehmen, ohne Ausweg. (Ja kannst du – entspann dich.)"
+          question: "Kann ich jederzeit aufhören?",
+          answer: "Klar. Es gibt keine Mindestlaufzeit und keine versteckten Kosten. Während der Beta-Phase ist sowieso alles kostenlos. Wenn's dir nicht gefällt, kannst du jederzeit aussteigen."
         },
         {
           question: "Was passiert mit meinen Daten?",
-          answer: "Die verkaufen wir nach China, um noch mehr Kohle zu machen. (Emre hat mich gezwungen folgendes zu schreiben: Deine Daten gehören dir. Wir nutzen europäische Server (DSGVO-konform), verschlüsseln alle Daten und verkaufen niemals Informationen an Dritte. Du kannst jederzeit exportieren.)"
+          answer: "Deine Daten gehören dir. Wir nutzen europäische Server (DSGVO-konform), verschlüsseln alle Daten und verkaufen niemals Informationen an Dritte. Du kannst deine Daten jederzeit exportieren."
         },
         {
           question: "Gibt es eine mobile App?",
-          answer: "Also so eine richtige App-App nicht, du kannst es aber auf mobilen Geräten sorgenfrei nutzen. Native iOS und Android-Apps sind in Entwicklung und langfristig geplant (sind sie nicht – weißt du was das kostet? Außerdem ist Emre dafür zu langsam)"
+          answer: "Der Paul-O-Mat funktioniert im Browser auf allen Geräten – also auch mobil. Native iOS und Android Apps sind langfristig geplant, aber aktuell fokussieren wir uns darauf, die Web-Version richtig gut zu machen."
         },
         {
-          question: "Kann ich euch auch mehr zahlen?",
-          answer: "Ja! Du darfst uns so viel Geld geben wie du möchtest! Je mehr Geld du uns zahlst, desto schneller bekomme ich meinen Porsche und desto schneller kann ich Emre aus dem Keller wieder rauslassen."
+          question: "Wie viel Feedback wird von mir erwartet?",
+          answer: "Kein Stress. Nutze die Plattform einfach ganz normal für dein Coaching. Wenn dir was auffällt – super oder nicht so super – sag uns Bescheid. Es gibt keine Pflichten oder Abgabetermine. Ehrliches Feedback in deinem Tempo reicht uns völlig."
         }
       ]
     },
@@ -209,28 +210,28 @@ const translations = {
       title: "Warum der Paul-O-Mat?",
       items: [
         {
-          title: "Besser als Excel",
-          description: "Weil nur Loser Excel nutzen"
+          title: "Schluss mit Excel-Chaos",
+          description: "Endlich eine moderne Lösung für dein Coaching"
         },
         {
-          title: "Jazzy Coaching",
-          description: "Endlich sieht dein Coaching-Setup nicht mehr scheiße aus"
+          title: "Coaching in jazzy",
+          description: "Professionell, übersichtlich und einfach zu bedienen"
         },
         {
-          title: "Keine riesen Kostenberge",
-          description: "Nur 20€ im Monat – günstiger als zwei Döner"
+          title: "Faire Preise",
+          description: "Beta-Tester bekommen 3 Monate kostenlos"
         },
         {
-          title: "Nach Paul benannt",
-          description: "Mit seinem Gesicht als Logo. Der Traum."
+          title: "Von Coaches für Coaches",
+          description: "Paul bringt die Praxis-Erfahrung, Emre die Technik"
         },
         {
-          title: "Emre setzt um",
-          description: "Paul sagt was er will, Emre macht's"
+          title: "Gemeinsam entwickelt",
+          description: "Dein Feedback fließt direkt in die Entwicklung ein"
         },
         {
-          title: "Du bist Teil davon",
-          description: "Mit deiner Kohle und deinen Ideen (die vielleicht umgesetzt werden)"
+          title: "Transparent & ehrlich",
+          description: "Wir sind noch nicht perfekt, arbeiten aber daran"
         }
       ]
     }
@@ -250,29 +251,29 @@ const translations = {
 
     // Hero Section
     hero: {
-      title: "The Paul-O-Mat – because only losers use Excel.",
-      subtitle: "I'm Paul – coach for ambitious bodybuilders – and I find Excel terrible. Every check-in with my athletes is an organizational chaos and let's be honest – it looks like crap. That's why I built the Paul-O-Mat with my buddy Emre. Simply because we can. Coaching in jazzy, basically, and all without massive costs. And to do my oversized ego another favor, we named the platform after me. And even used my face as the logo. I'm living the dream. Sorry Emre, but Emre-O-Mat just sounds dumb.",
-      ctaPrimary: "Get Started Free",
+      title: "The Paul-O-Mat – Coaching Without Excel Chaos",
+      subtitle: "I'm Paul – coach for ambitious bodybuilders – and I find Excel terrible. Every check-in with my athletes is organizational chaos. That's why Emre and I built the Paul-O-Mat. Coaching in jazzy, basically, without costing you a fortune. And to do my oversized ego a favor, we named the platform after me. Even used my face as the logo. I'm living the dream. Emre-O-Mat wouldn't have sounded as good anyway, right?",
+      ctaPrimary: "Apply for Beta",
       ctaSecondary: "Learn More",
       tagline: "Jazzy coaching – without Excel chaos"
     },
 
     // Features Section
     features: {
-      title: "We can do everything your current system does. Just better, faster, prettier, and with more charm.",
+      title: "Everything your current system does. Just better, faster, prettier, and with more charm.",
       subtitle: "Everything for professional coaching",
       list: [
         {
           title: "True 1:1 Athlete Management",
-          description: "We coaches all have the same problem. Wake up in the morning, open WhatsApp, and immediately get the question 'Coach, what do I have to do today?'. Don't annoy me, man. The Paul-O-Mat gives you the ability to minimize social interactions to an absolute minimum, so you can continue living your introverted dream in your 20 square meter apartment. Each athlete has an individual profile with personalized tracking parameters and customized goals."
+          description: "Sound familiar? Wake up, open WhatsApp, and immediately get: 'Coach, what do I have to do today?' The Paul-O-Mat organizes this for you. Each athlete gets their individual profile with personalized tracking parameters and customized goals. More time for actual coaching – less chaos in your inbox."
         },
         {
           title: "Intelligent Habit Tracking",
-          description: "Whether checkbox, numeric tracking, or ratings. You can even force your athletes to deliver proof and notes to you – how awesome is that?"
+          description: "Whether checkbox, numeric tracking, or ratings – you decide how your athletes track their progress. Proof and notes included. Everything in one place, always available."
         },
         {
           title: "Automatic Streak Tracking",
-          description: "Nothing works without streaks these days. Instead of collecting flames on Snapchat like all the low-performers, we focus on streak goals in the Paul-O-Mat. The more your athlete reports back, the higher the streak. We ride the dopamine wave and get the athlete addicted. Pretty genius, actually. If they forget a check-in, they lose the streak."
+          description: "Streaks work. In the Paul-O-Mat, your athletes don't collect Snapchat flames – they build real check-in streaks. The more consistent your athlete reports back, the higher the streak. Motivating stuff. Miss a check-in? Streak resets. Simple principle, powerful results."
         }
       ]
     },
@@ -281,7 +282,7 @@ const translations = {
     about: {
       title: "Who are we anyway?",
       subtitle: "The story behind Paul-O-Mat",
-      description: "Emre and I, Paul, have known each other for an incredibly long time. Initially, Emre was in lifestyle coaching with me, which failed miserably (it was his fault). Nevertheless, he was able to gain insight into how the coaching process works. Since he's somewhat programming-savvy (to this day, I don't really know what he does professionally – something with computers) and I'm extremely opportunistic, we both had a brilliant idea: We need to somehow bring the coaching process, as practiced by every self-proclaimed fitness coach on social media, into the 21st century. Excel is simply no longer state-of-the-art. All the organization around coaching distracts us from what's actually important: the coaching. The Paul-O-Mat was born. So we both set out on a mission to create the coolest check-in platform for coaches on the market that you can afford and want. The collaboration went brilliantly. I say what I want, Emre implements it. From my perspective, the perfect division of tasks, right Emre? The Paul-O-Mat isn't perfect – we know that. But it's on the way there. For that, we need money, coaches with lots of ideas, and money. And that's exactly why you're here. You'll be part of the development. Once with your monthly financial injection, and secondly with your improvement suggestions, which will either end up in the trash or in the finished platform.",
+      description: "Emre and I, Paul, have known each other forever. Emre was once in lifestyle coaching with me and got to experience the coaching process firsthand – with all its organizational chaos. Since Emre can code (something with computers) and I knew what we needed as a coach, we had the idea: We need to bring coaching into the 21st century. Excel just isn't cutting it anymore. All the organization distracts from what matters – the actual coaching. So we sat down together and built the Paul-O-Mat. Our mission: The best check-in platform for coaches that's affordable and fun to use. The collaboration works great – I bring the coach perspective, Emre handles the technical implementation. The Paul-O-Mat isn't perfect yet, we know that. But it's getting there. And that's exactly why you're here. You'll be part of the development. Your feedback helps us make the platform even better. Together, we're building the tool that coaches actually need.",
       cta: "Learn More",
       stat: {
         years: "01",
@@ -293,22 +294,22 @@ const translations = {
     // CTA Section
     cta: {
       title: "Ready for jazzy coaching?",
-      description: "Start today and say goodbye to Excel chaos.",
-      button: "Get Started Now"
+      description: "Apply now for the beta program and become part of our community.",
+      button: "Apply for Beta"
     },
 
     // Pricing Section
     pricing: {
-      badge: "Pricing",
-      title: "One price. The full product.",
-      subtitle: "The Paul-O-Mat costs you just €20 per month with all features and direct contact with Emre or me.",
+      badge: "Beta Program",
+      title: "Become Part of Our Beta Community",
+      subtitle: "Get 3 months of free access to the Paul-O-Mat. All we need in return: Your honest feedback.",
       monthly: "month",
       onetime: "one-time",
       popular: "Popular",
-      limitedTime: "Limited Offer",
-      limitedTimeDescription: "€20 - that's not even two kebabs these days. So give yourself a push and give us your money.",
+      limitedTime: "Limited Spots",
+      limitedTimeDescription: "We're looking for coaches who want to help us develop the Paul-O-Mat. You get full access, we get valuable feedback. Fair deal, right?",
       cta: "Sign Up Now",
-      betaCta: "Apply Now",
+      betaCta: "Apply for Beta",
       tiers: [
         {
           name: "Paul-O-Mat",
@@ -330,14 +331,15 @@ const translations = {
           price: "0",
           priceLabel: "Free",
           period: "3 months",
-          badge: "Limited Offer",
-          description: "Invite-only. Apply now for early access.",
+          badge: "Limited Spots",
+          description: "Get full access to the platform. We'll introduce everything in a personal demo call. In return: Your honest feedback helps us improve.",
           contactEmail: "paul.wurche.coaching@gmail.com",
           features: [
             "All features included",
             "Unlimited athletes",
-            "Direct contact with Paul & Emre",
-            "3 months free",
+            "Personal demo call with us",
+            "Direct line to Paul & Emre",
+            "3 months completely free",
             "Habit tracking & streaks",
             "Early access to new features"
           ]
@@ -347,23 +349,23 @@ const translations = {
 
     // Testimonials Section
     testimonials: {
-      title: "See what our customers say.",
-      subtitle: "Real reviews from real users",
+      title: "Your Feedback Could Be Here.",
+      subtitle: "As a beta tester, you help us improve the platform",
       items: [
         {
-          name: "Paul",
+          name: "Your Name?",
           rating: 5,
-          text: "Genius. I pay nothing and have an awesome product. Bad luck, Emre, should have negotiated better."
+          text: "As one of our first beta testers, you get the chance to shape the Paul-O-Mat. Your feedback won't end up in the trash – it goes straight into development."
         },
         {
-          name: "Paul",
+          name: "You Too?",
           rating: 5,
-          text: "Awesome platform. Even named after me. Mom – are you proud of me?"
+          text: "We're looking for coaches who honestly tell us what works and what doesn't. No sugar-coated reviews – just real feedback that moves us forward."
         },
         {
-          name: "Paul",
+          name: "Maybe You?",
           rating: 5,
-          text: "The logo apparently shows a well-known European model – I like it."
+          text: "Apply now for the beta program and be there when we build the best coaching platform. 3 months free. No risk. Just honest feedback."
         }
       ]
     },
@@ -374,28 +376,28 @@ const translations = {
       subtitle: "All important questions answered",
       items: [
         {
-          question: "Does Paul have the biggest biceps in the country?",
-          answer: "There's no doubt about that. Why are you asking such presumptuous questions?"
+          question: "How does the beta program work?",
+          answer: "You apply through the waitlist, we review your profile and get in touch. Then we schedule a demo call, show you everything, and you get 3 months of full access. Free. In return, we appreciate your honest feedback."
         },
         {
-          question: "When is the AI integration coming?",
-          answer: "No idea. Are we in an FAQ or what?"
+          question: "What will the Paul-O-Mat cost after beta?",
+          answer: "Good question! We're still figuring that out. Beta testers will definitely get fair conditions. You'll know well in advance before the free 3 months end."
         },
         {
-          question: "Can I cancel anytime?",
-          answer: "Nope – you're forever bound to the platform. Mentally, physically, and financially. The Paul-O-Mat will completely consume you, no way out. (Yes you can – relax.)"
+          question: "Can I stop anytime?",
+          answer: "Sure. No minimum contract, no hidden costs. During the beta phase, everything is free anyway. If you don't like it, you can exit anytime."
         },
         {
           question: "What happens to my data?",
-          answer: "We sell it to China to make even more money. (Emre forced me to write the following: Your data belongs to you. We use European servers (GDPR compliant), encrypt all data, and never sell information to third parties. You can export anytime.)"
+          answer: "Your data belongs to you. We use European servers (GDPR compliant), encrypt all data, and never sell information to third parties. You can export your data anytime."
         },
         {
           question: "Is there a mobile app?",
-          answer: "Not a real app-app, but you can use it worry-free on mobile devices. Native iOS and Android apps are in development and planned long-term (they're not – do you know what that costs? Plus, Emre is too slow for that)"
+          answer: "The Paul-O-Mat works in your browser on all devices – including mobile. Native iOS and Android apps are planned long-term, but we're currently focused on making the web version really good."
         },
         {
-          question: "Can I pay you more?",
-          answer: "Yes! You're allowed to give us as much money as you want! The more money you pay us, the faster I get my Porsche and the faster I can let Emre out of the basement."
+          question: "How much feedback is expected from me?",
+          answer: "No pressure. Just use the platform normally for your coaching. If you notice something – great or not so great – let us know. No obligations or deadlines. Honest feedback at your pace is totally fine with us."
         }
       ]
     },
@@ -445,28 +447,28 @@ const translations = {
       title: "Why Paul-O-Mat?",
       items: [
         {
-          title: "Better than Excel",
-          description: "Because only losers use Excel"
+          title: "No More Excel Chaos",
+          description: "Finally a modern solution for your coaching"
         },
         {
-          title: "Jazzy Coaching",
-          description: "Finally your coaching setup doesn't look like crap anymore"
+          title: "Coaching in Jazzy",
+          description: "Professional, clear, and easy to use"
         },
         {
-          title: "No massive costs",
-          description: "Only €20 per month – cheaper than two kebabs"
+          title: "Fair Pricing",
+          description: "Beta testers get 3 months free"
         },
         {
-          title: "Named after Paul",
-          description: "With his face as the logo. The dream."
+          title: "By Coaches for Coaches",
+          description: "Paul brings the practical experience, Emre the tech"
         },
         {
-          title: "Emre implements",
-          description: "Paul says what he wants, Emre does it"
+          title: "Developed Together",
+          description: "Your feedback flows directly into development"
         },
         {
-          title: "You're part of it",
-          description: "With your money and your ideas (which might get implemented)"
+          title: "Transparent & Honest",
+          description: "We're not perfect yet, but we're working on it"
         }
       ]
     }
@@ -476,8 +478,8 @@ const translations = {
 // Language Switcher Logic with URL Routing
 class LanguageSwitcher {
   constructor() {
-    // Check URL parameter first, then localStorage, default to 'de'
-    this.currentLang = this.getLangFromURL() || localStorage.getItem('language') || 'de';
+    // Check URL parameter first, then always default to 'de' (German)
+    this.currentLang = this.getLangFromURL() || 'de';
     console.log('[LanguageSwitcher] Initializing with language:', this.currentLang);
     this.init();
   }
@@ -523,7 +525,7 @@ class LanguageSwitcher {
     console.log('[LanguageSwitcher] Switching from', this.currentLang);
     this.currentLang = this.currentLang === 'de' ? 'en' : 'de';
     console.log('[LanguageSwitcher] Switched to', this.currentLang);
-    localStorage.setItem('language', this.currentLang);
+    // Language preference is not saved - always defaults to German on page load
     document.documentElement.lang = this.currentLang;
     this.updateURL(this.currentLang);
     this.updateContent();
