@@ -155,4 +155,48 @@
   // invoke theme check on initial load
   themeCheck();
   /* ========  themeSwitcher End ========= */
+
+  /* ========  Video Player Start ========= */
+  // Video click-to-play functionality
+  const videoContainer = document.getElementById('video-container');
+  const videoThumbnail = document.getElementById('video-thumbnail');
+  const playButton = document.getElementById('play-button');
+
+  if (videoContainer && playButton) {
+    const playVideo = () => {
+      // YouTube video ID
+      const videoId = 'RwAmlp2N18Y';
+
+      // Create iframe element
+      const iframe = document.createElement('iframe');
+      iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`);
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+      iframe.setAttribute('allowfullscreen', '');
+      iframe.setAttribute('class', 'w-full h-full');
+      iframe.style.position = 'absolute';
+      iframe.style.top = '0';
+      iframe.style.left = '0';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.border = 'none';
+
+      // Set container to maintain aspect ratio
+      videoContainer.style.position = 'relative';
+      videoContainer.style.paddingBottom = '56.25%'; // 16:9 aspect ratio
+      videoContainer.style.height = '0';
+
+      // Remove thumbnail and play button
+      videoThumbnail.style.display = 'none';
+      playButton.style.display = 'none';
+
+      // Append iframe
+      videoContainer.appendChild(iframe);
+    };
+
+    // Add click event listeners
+    playButton.addEventListener('click', playVideo);
+    videoThumbnail.addEventListener('click', playVideo);
+  }
+  /* ========  Video Player End ========= */
 })();

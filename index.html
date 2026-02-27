@@ -471,12 +471,23 @@
               class="wow fadeInUp relative z-10 mx-auto max-w-[845px]"
               data-wow-delay=".25s"
             >
-              <div class="mt-16">
+              <div class="mt-16 relative rounded-t-xl rounded-tr-xl" id="video-container">
                 <img
+                  id="video-thumbnail"
                   src="assets/images/hero/hero-image.jpg"
                   alt="hero"
-                  class="max-w-full mx-auto rounded-t-xl rounded-tr-xl"
+                  class="max-w-full mx-auto rounded-t-xl rounded-tr-xl cursor-pointer"
                 />
+                <div id="play-button" class="absolute inset-0 flex flex-col items-center justify-center cursor-pointer">
+                  <div class="video-play-btn bg-white rounded-full w-24 h-24 flex items-center justify-center transition-all duration-300 transform hover:scale-110 shadow-2xl">
+                    <svg class="w-12 h-12 text-blue-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </div>
+                  <div class="mt-4 text-white text-lg font-semibold bg-black/60 px-6 py-2 rounded-full backdrop-blur-sm">
+                    Video abspielen
+                  </div>
+                </div>
               </div>
               <div class="absolute -left-9 bottom-0 z-[-1]">
                 <svg
